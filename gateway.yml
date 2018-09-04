@@ -5,7 +5,7 @@ eureka:
     region: default
     registryFetchIntervalSeconds: 5
     serviceUrl:
-      defaultZone: http://localhost:8082/eureka/
+      defaultZone: http://discUser:discPassword@localhost:8082/eureka/
   instance:
     instance-id: gateway
     prefer-ip-address: true
