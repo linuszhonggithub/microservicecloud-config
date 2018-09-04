@@ -22,4 +22,6 @@ eureka:
       defaultZone: http://localhost:8082/eureka/
     region: default
     registry-fetch-interval-seconds: 5
-        
+  instance:
+    instance-id: book
+    prefer-ip-address: true 
