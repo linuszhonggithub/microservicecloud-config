@@ -14,3 +14,9 @@ eureka:
 spring:
   application:
     name: gateway      
+zuul:
+  ignored-services: "*"
+  routes:
+    mybook.serviceId: book-service
+    mybook.path: /book/**
+    sensitive-headers: Set-Cookie,Authorization 
