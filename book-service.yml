@@ -7,7 +7,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/zhongzeyu?useSSL=false&useUnicode=true&characterEncoding=utf-8
     username: root
-    password: '{cipher}ce5d56378198755defd4f1ed901a63145c446605947540786a6824fbe86a3a27linuszhong'
+    password: '{cipher}ce5d56378198755defd4f1ed901a63145c446605947540786a6824fbe86a3a27'
   jpa:
     database: mysql
     show-sql: true
